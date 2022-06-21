@@ -11,15 +11,24 @@ public class HelperUser extends HelperBase{
     }
 
     public void openLoginForm() {
-        click(By.xpath(""));
+        click(By.xpath("//a[text()=' Log in ']"));
     }
 
     public void fillLoginForm(String email, String password) {
-        type(By.xpath(""),email);
-        type(By.xpath(""),password);
+        type(By.xpath("//*[@id='email']"),email);
+        type(By.xpath("//*[@id='password']"),password);
     }
 
+
     public void submitLogin() {
-        click(By.xpath(""));
+        click(By.xpath("//*[@type='submit']"));
+    }
+    public void btnOk()
+    {
+        click(By.xpath("//button[@type='button']"));
+    }
+
+    public boolean isLoginRegSuccess() {
+        return isElementPresent(By.xpath("//a[text()=' Logout ']"));
     }
 }
