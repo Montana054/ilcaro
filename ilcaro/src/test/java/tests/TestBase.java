@@ -1,17 +1,19 @@
 package tests;
 
 import manager.AplicationManager;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
 
 public class TestBase {
-    protected static AplicationManager app = new AplicationManager();
-    @BeforeMethod
+    protected static AplicationManager app = new AplicationManager();// Инициализация
+    //так как STATIC то они статик начинают отрабатывать первые
+    @BeforeSuite
     public void setUp()
     {
         app.inIt();
     }
-    @AfterMethod
+
+    @AfterSuite
     public void tearDown()
     {
         app.stop();
