@@ -1,5 +1,6 @@
 package tests;
 
+import models.Users;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -20,22 +21,39 @@ if(app.getHelperUser().isLogOutPresent())
 
 
     @Test
-    public void loginSuccess()
+    public void loginSuccessModel()
     {
-       app.getHelperUser().openLoginForm();
+        Users user =new Users().withEmail("noa@gmail.com").withPassword("Nnoa12345$");
+//флюинстайл - выятгивание метода по цепочки в строчку
+
+        app.getHelperUser().openLoginForm();
        app.getHelperUser().implicitlyWait();
-       app.getHelperUser().fillLoginForm("noa@gmail.com", "Nnoa12345$");
-       app.getHelperUser().submitYallaButton();
+       app.getHelperUser().fillLoginForm(user);
+       app.getHelperUser().submit();
 
         Assert.assertTrue(app.getHelperUser().isLoginRegSuccess());//можно так
         Assert.assertEquals(app.getHelperUser().chekMessage(),"Logout");// а можно так
 
 
     }
+
+//    @Test
+//    public void loginSuccess()  // просто изменили метод сделали ерез моделз
+//    {
+//        app.getHelperUser().openLoginForm();
+//        app.getHelperUser().implicitlyWait();
+//        app.getHelperUser().fillLoginForm("noa@gmail.com", "Nnoa12345$");
+//        app.getHelperUser().submitYallaButton();
+//
+//        Assert.assertTrue(app.getHelperUser().isLoginRegSuccess());//можно так
+//        Assert.assertEquals(app.getHelperUser().chekMessage(),"Logout");// а можно так
+//
+//
+//    }
     @AfterMethod
     public void postCondition()
     {
-        app.getHelperUser().btnOk();
+        app.getHelperUser().submitOkButton();
     }
 
 }
