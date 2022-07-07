@@ -20,6 +20,7 @@ public class HelperBase {
             element.click();
             element.clear();
             element.sendKeys(text);
+
         }
     }
     public void click(By locator)
@@ -36,5 +37,12 @@ public void implicitlyWait()
         wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
+    public void submit() {
 
+
+        click(By.xpath("//*[@type='submit']"));
+
+
+    }
 }
+

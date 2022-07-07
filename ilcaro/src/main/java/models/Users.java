@@ -5,7 +5,16 @@ public class Users {
     String password;
 String name;
 String lasteName;
+String phone;
 
+    public String getPhone() {
+        return phone;
+    }
+
+    public Users withPhone(String phone) {
+        this.phone = phone;
+        return this;
+    }
 
     public Users withName(String name) {
         this.name = name;
@@ -40,6 +49,9 @@ String lasteName;
         return "Users{" +
                 "email='" + email + '\'' +
                 ", password='" + password + '\'' +
+                ", name='" + name + '\'' +
+                ", lasteName='" + lasteName + '\'' +
+                ", phone='" + phone + '\'' +
                 '}';
     }
 

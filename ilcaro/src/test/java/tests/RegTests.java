@@ -21,7 +21,7 @@ public class RegTests extends TestBase {
         Users user = new Users().withName("Mia").withLasteName("Sena").withEmail("ii" + index + "@yahoo.com").withPassword("Liza1234$");
 
         app.getHelperUser().openRegForm();
-        app.getHelperUser().fillRegGorm(user);
+        app.getHelperUser().fillRegForm(user);
         // app.getHelperUser().checkPolicy();
         app.getHelperUser().checkPolicyXY();
         app.getHelperUser().submit();
@@ -38,7 +38,7 @@ public class RegTests extends TestBase {
         Users user = new Users().withName("Ria").withLasteName("Aena").withEmail("iei" + index + "@yahoo.com").withPassword("L1234");
 
         app.getHelperUser().openRegForm();
-        app.getHelperUser().fillRegGorm(user);
+        app.getHelperUser().fillRegForm(user);
         app.getHelperUser().checkPolicyXY();
         app.getHelperUser().submit();
         Assert.assertTrue(app.getHelperUser().isErrorPasswordDisplayedSize());

@@ -30,13 +30,7 @@ public class HelperUser extends HelperBase {
         type(By.xpath("//*[@id='password']"), user.getPassword());
     }
 
-    public void submit() {
 
-
-        click(By.xpath("//*[@type='submit']"));
-
-
-    }
 
     public void submitOkButton() {
         if (isElementPresent(By.xpath("//button[text()='Ok']"))) {
@@ -67,7 +61,7 @@ public class HelperUser extends HelperBase {
         click(By.xpath("//a[text()=' Sign up ']"));
     }
 
-    public void fillRegGorm(Users user) {
+    public void fillRegForm(Users user) {
         type(By.id("name"), user.getName());
         type(By.id("lastName"), user.getLasteName());
         type(By.id("email"), user.getEmail());
@@ -75,7 +69,7 @@ public class HelperUser extends HelperBase {
 
     }
 
-    public void fillRegGorm(String name, String lastname, String email, String password) {
+    public void fillRegForm(String name, String lastname, String email, String password) {
         type(By.id("name"), name);
         type(By.id("lastName"), lastname);
         type(By.id("email"), email);
