@@ -3,7 +3,9 @@ package manager;
 import models.Cars;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class CarsHelper extends HelperBase {
     public CarsHelper(WebDriver wd) {
@@ -11,6 +13,7 @@ public class CarsHelper extends HelperBase {
     }
 
     public void openCarForm() {
+
         click(By.id("1"));
     }
 
@@ -55,6 +58,18 @@ new Select(wd.findElement(locator)).selectByValue(option);
 
     }
 
-    public void attachForm(String s) {
+    public void attachForm(String link)
+    {
+wd.findElement(By.id("photos")).sendKeys(link);
+    }
+
+
+    public boolean isCarAdded()
+    {
+        new WebDriverWait(wd,10)
+                .until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector("div.dialog-container"))));
+        String message=wd.findElement((By.cssSelector("div.dialog-container h1"))).getText();
+        click(By.xpath("//button[text()='Search cars']"));
+        return message.equals("Car added");
     }
 }

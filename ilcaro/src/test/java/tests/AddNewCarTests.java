@@ -1,6 +1,8 @@
 package tests;
 
 import models.Cars;
+import models.Users;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -8,7 +10,10 @@ public class AddNewCarTests extends TestBase {
     @BeforeMethod
     public void preCondition()
     {
-        // if Login-->Login
+        if(!app.getHelperUser().isLogOutPresent())
+        {
+            app.getHelperUser().login(new Users().withEmail("noa@gmail.com").withPassword("Nnoa12345$"));
+        }
     }
     @Test
     public void addNewCarsSuccess()
@@ -35,9 +40,11 @@ public class AddNewCarTests extends TestBase {
                .build();
        app.car().openCarForm();
        app.car().fillCarForm(car);
-       app.car().attachForm("");
-       app.car().submit();
-       // login --- vsr added- нужно разнести в 2класса
+      app.car().attachForm("C:/Qa32/ilcaro/JIPG/Tesla-Model-S-6-1.jpg");
+
+      app.car().submit();
+      Assert.assertTrue(app.car().isCarAdded());
+
 
     }
 }

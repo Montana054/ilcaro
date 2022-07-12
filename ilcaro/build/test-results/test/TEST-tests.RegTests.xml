@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.RegTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-07-12T09:12:38" hostname="WIN-6CQ3264SSN2" time="23.779">
+  <properties/>
+  <testcase name="regWrongPassModel" classname="tests.RegTests" time="1.598"/>
+  <testcase name="registrationSuccessModel" classname="tests.RegTests" time="2.07"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

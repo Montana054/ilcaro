@@ -109,4 +109,13 @@ public class HelperUser extends HelperBase {
     public boolean isYallaButtonNotClicabal() {
         return isElementPresent(By.cssSelector("Button[disabled]"));//2 вариант
     }
+
+    public void login(Users user)
+    {
+        openLoginForm();
+        fillLoginForm(user);
+        submit();
+        //submitOkButton();
+
+    }
 }

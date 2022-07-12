@@ -22,7 +22,7 @@ public class RegTests extends TestBase {
 
         app.getHelperUser().openRegForm();
         app.getHelperUser().fillRegForm(user);
-        // app.getHelperUser().checkPolicy();
+
         app.getHelperUser().checkPolicyXY();
         app.getHelperUser().submit();
 
@@ -40,7 +40,7 @@ public class RegTests extends TestBase {
         app.getHelperUser().openRegForm();
         app.getHelperUser().fillRegForm(user);
         app.getHelperUser().checkPolicyXY();
-        app.getHelperUser().submit();
+       // app.getHelperUser().submit();
         Assert.assertTrue(app.getHelperUser().isErrorPasswordDisplayedSize());
         Assert.assertTrue(app.getHelperUser().isErrorPasswordDisplayedFormat());
         Assert.assertFalse(app.getHelperUser().isYallaButtonNotActive());
