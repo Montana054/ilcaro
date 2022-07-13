@@ -1,7 +1,6 @@
 package manager;
 
 
-import models.Cars;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -13,6 +12,7 @@ public class AplicationManager {
     WebDriver wd;
     HelperUser helperUser;
     CarsHelper car;
+    HelperSearch search;
 
     public void inIt() {
         wd = new ChromeDriver();
@@ -21,12 +21,16 @@ public class AplicationManager {
         wd.navigate().to("https://ilcarro-1578153671498.web.app/search");
         helperUser = new HelperUser(wd);// Инициализация
         car = new CarsHelper(wd);
-
+        search = new HelperSearch(wd);
     }
 
     public void stop() {
 
         //wd.quit();
+    }
+
+    public HelperSearch getSearch() {
+        return search;
     }
 
     public CarsHelper car() {

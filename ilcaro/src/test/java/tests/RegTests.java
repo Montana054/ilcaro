@@ -62,6 +62,10 @@ public class RegTests extends TestBase {
 //    }
     @AfterMethod
     public void postCondition() {
+
         app.getHelperUser().submitOkButton();
+//        app.getHelperUser().mainPage();
     }
+
+
 }

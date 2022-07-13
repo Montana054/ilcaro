@@ -25,6 +25,11 @@ public class HelperBase {
 
         }
     }
+    public void clearForm(By locator)
+    {
+        WebElement element=wd.findElement(locator);
+        element.clear();
+    }
     public void click(By locator)
     {
         wd.findElement(locator).click();
