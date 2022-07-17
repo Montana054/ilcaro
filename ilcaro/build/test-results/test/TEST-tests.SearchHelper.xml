@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.SearchHelper" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-07-13T15:30:56" hostname="WIN-6CQ3264SSN2" time="3.224">
-  <properties/>
-  <testcase name="searchAnyPeriod" classname="tests.SearchHelper" time="1.998"/>
-  <testcase name="searchCurreantMonth" classname="tests.SearchHelper" time="1.225"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

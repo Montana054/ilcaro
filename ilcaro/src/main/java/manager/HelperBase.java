@@ -14,6 +14,14 @@ public class HelperBase {
     public HelperBase(WebDriver wd) {
         this.wd = wd;
     }
+
+    public void pause(int millis){
+        try {
+            Thread.sleep(millis);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
     public void type(By locator,String text)
     {
         if(text!=null)
@@ -25,6 +33,12 @@ public class HelperBase {
 
         }
     }
+    public void submitWithoutWait() {
+
+        click(By.cssSelector("[type='submit']"));
+
+    }
+
     public void clearForm(By locator)
     {
         WebElement element=wd.findElement(locator);
@@ -48,6 +62,11 @@ public void implicitlyWait()
 
 new WebDriverWait(wd,10)
         .until(ExpectedConditions.elementToBeClickable(wd.findElement(By.cssSelector("[type='submit']"))));
+        click(By.cssSelector("[type='submit']"));
+    }
+
+    public void submitWithotWait()
+    {
         click(By.cssSelector("[type='submit']"));
     }
 }

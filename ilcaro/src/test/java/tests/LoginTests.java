@@ -16,6 +16,7 @@ public class LoginTests extends TestBase
 if(app.getHelperUser().isLogOutPresent())
 {
     app.getHelperUser().logOut();
+    logger.info("Test needs logout");
 }
    }
 
@@ -23,6 +24,7 @@ if(app.getHelperUser().isLogOutPresent())
     @Test
     public void loginSuccessModel()
     {
+        logger.info("the test starts with data [noa@gmail.com] & [Nnoa12345$]");
         Users user =new Users().withEmail("noa@gmail.com").withPassword("Nnoa12345$");
 //флюинстайл - выятгивание метода по цепочки в строчку
 
