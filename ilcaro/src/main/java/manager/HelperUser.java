@@ -31,7 +31,6 @@ public class HelperUser extends HelperBase {
     }
 
 
-
     public void submitOkButton() {
         if (isElementPresent(By.xpath("//button[text()='Ok']"))) {
             click(By.xpath("//button[text()='Ok']"));
@@ -76,6 +75,7 @@ public class HelperUser extends HelperBase {
         type(By.id("password"), password);
 
     }
+
     public void checkPolicy() {
         click(By.xpath("//*[@class='checkbox-label terms-label']"));
     }
@@ -89,6 +89,7 @@ public class HelperUser extends HelperBase {
         actions.moveToElement(lable).release().perform();
         actions.moveByOffset(-offSetX, -offSetY).click().release().perform();
     }
+
     public boolean isErrorPasswordDisplayedSize() {
         Boolean firstChaild = new WebDriverWait(wd, 5).until(ExpectedConditions.textToBePresentInElement
                 (wd.findElement(By.cssSelector("div.error div:first-child"))
@@ -96,22 +97,24 @@ public class HelperUser extends HelperBase {
 
         return firstChaild;
     }
+
     public boolean isErrorPasswordDisplayedFormat() {
         Boolean lastChaild = new WebDriverWait(wd, 8).until(ExpectedConditions.textToBePresentInElement
                 (wd.findElement(By.cssSelector("div.error div:last-child"))
                         , "Password must contain 1 uppercase letter, 1 lowercase letter and one number"));
         return lastChaild;
     }
+
     public boolean isYallaButtonNotActive() {
 
         return wd.findElement(By.xpath("//*[@type='submit']")).isEnabled();//1 вариант-слцжебный метот силениума
     }
+
     public boolean isYallaButtonNotClicabal() {
         return isElementPresent(By.cssSelector("Button[disabled]"));//2 вариант
     }
 
-    public void login(Users user)
-    {
+    public void login(Users user) {
         openLoginForm();
         fillLoginForm(user);
         submit();

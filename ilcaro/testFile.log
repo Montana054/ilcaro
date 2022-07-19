@@ -1,0 +1,129 @@
+5939 [Test worker] INFO  manager.AplicationManager - All tests starts in ChromDriver
+13396 [Test worker] INFO  tests.TestBase - the test starts with data [noa@gmail.com] & [Nnoa12345$]
+3887 [Test worker] INFO  manager.AplicationManager - All tests starts in ChromDriver
+13665 [Test worker] INFO  tests.TestBase - the test starts with data [noa@gmail.com] & [Nnoa12345$]
+16:07:07.286 INFO  manager.AplicationManager - All tests starts in ChromDriver
+16:07:10.423 INFO  manager.AplicationManager - The linc is -->https://ilcarro-1578153671498.web.app/search
+16:07:10.487 INFO  manager.MyListener - 'Start finde' element ---> By.xpath: //a[text()=' Logout ']
+16:07:15.569 INFO  manager.MyListener - the element with locator ---> By.xpath: //a[text()=' Logout '] ,--- was found
+16:07:15.573 INFO  tests.TestBase - the test starts with data [noa@gmail.com] & [Nnoa12345$]
+16:07:15.575 INFO  manager.MyListener - 'Start finde' element ---> By.xpath: //a[text()=' Log in ']
+16:07:15.607 INFO  manager.MyListener - the element with locator ---> By.xpath: //a[text()=' Log in '] ,--- was found
+16:07:15.740 INFO  manager.MyListener - 'Start finde' element ---> By.xpath: //*[@id='email']
+16:07:15.768 INFO  manager.MyListener - the element with locator ---> By.xpath: //*[@id='email'] ,--- was found
+16:07:16.016 INFO  manager.MyListener - 'Start finde' element ---> By.xpath: //*[@id='password']
+16:07:16.037 INFO  manager.MyListener - the element with locator ---> By.xpath: //*[@id='password'] ,--- was found
+16:07:16.222 INFO  manager.MyListener - 'Start finde' element ---> By.cssSelector: [type='submit']
+16:07:16.252 INFO  manager.MyListener - the element with locator ---> By.cssSelector: [type='submit'] ,--- was found
+16:07:16.361 INFO  manager.MyListener - 'Start finde' element ---> By.cssSelector: [type='submit']
+16:07:16.387 INFO  manager.MyListener - the element with locator ---> By.cssSelector: [type='submit'] ,--- was found
+16:07:16.470 INFO  manager.MyListener - 'Start finde' element ---> By.xpath: //a[text()=' Logout ']
+16:07:26.523 INFO  manager.MyListener - the element with locator ---> By.xpath: //a[text()=' Logout '] ,--- was found
+16:07:26.535 INFO  manager.MyListener - 'Start finde' element ---> By.xpath: //button[text()='Ok']
+16:07:35.941 INFO  manager.MyListener - the element with locator ---> By.xpath: //button[text()='Ok'] ,--- was found
+16:07:35.941 INFO  manager.MyListener - 'Start finde' element ---> By.xpath: //button[text()='Ok']
+16:07:35.980 INFO  manager.MyListener - the element with locator ---> By.xpath: //button[text()='Ok'] ,--- was found
+16:08:43.779 INFO  manager.AplicationManager - All tests starts in ChromDriver
+16:08:48.961 INFO  manager.AplicationManager - The linc is -->https://ilcarro-1578153671498.web.app/search
+16:08:49.026 INFO  manager.MyListener - 'Start finde' element ---> By.xpath: //a[text()=' Logout ']
+16:08:54.119 INFO  manager.MyListener - the element with locator ---> By.xpath: //a[text()=' Logout '] ,--- was found
+16:08:54.123 INFO  tests.TestBase - the test starts with data [noa@gmail.com] & [Nnoa12345$]
+16:08:54.125 INFO  manager.MyListener - 'Start finde' element ---> By.xpath: //a[text()=' Log in ']
+16:08:54.153 INFO  manager.MyListener - the element with locator ---> By.xpath: //a[text()=' Log in '] ,--- was found
+16:08:54.326 INFO  manager.MyListener - 'Start finde' element ---> By.xpath: //*[@id='email']
+16:08:54.354 INFO  manager.MyListener - the element with locator ---> By.xpath: //*[@id='email'] ,--- was found
+16:08:54.829 INFO  manager.MyListener - 'Start finde' element ---> By.xpath: //*[@id='password']
+16:08:54.862 INFO  manager.MyListener - the element with locator ---> By.xpath: //*[@id='password'] ,--- was found
+16:08:55.180 INFO  manager.MyListener - 'Start finde' element ---> By.cssSelector: [type='submit']
+16:08:55.219 INFO  manager.MyListener - the element with locator ---> By.cssSelector: [type='submit'] ,--- was found
+16:08:55.350 INFO  manager.MyListener - 'Start finde' element ---> By.cssSelector: [type='submit']
+16:08:55.371 INFO  manager.MyListener - the element with locator ---> By.cssSelector: [type='submit'] ,--- was found
+16:08:55.447 INFO  manager.MyListener - 'Start finde' element ---> By.xpath: //a[text()=' Logout ']
+16:08:56.659 INFO  manager.MyListener - the element with locator ---> By.xpath: //a[text()=' Logout '] ,--- was found
+16:08:56.663 INFO  manager.MyListener - 'Start finde' element ---> By.xpath: //a[text()=' Logout ']
+16:08:56.700 INFO  manager.MyListener - the element with locator ---> By.xpath: //a[text()=' Logout '] ,--- was found
+16:08:56.754 INFO  manager.MyListener - 'Start finde' element ---> By.xpath: //a[text()=' Logout ']
+16:08:56.782 INFO  manager.MyListener - the element with locator ---> By.xpath: //a[text()=' Logout '] ,--- was found
+16:08:56.804 INFO  manager.MyListener - 'Start finde' element ---> By.xpath: //button[text()='Ok']
+16:08:56.850 INFO  manager.MyListener - the element with locator ---> By.xpath: //button[text()='Ok'] ,--- was found
+16:08:56.850 INFO  manager.MyListener - 'Start finde' element ---> By.xpath: //button[text()='Ok']
+16:08:56.888 INFO  manager.MyListener - the element with locator ---> By.xpath: //button[text()='Ok'] ,--- was found
+16:09:08.390 INFO  manager.AplicationManager - All tests starts in ChromDriver
+16:09:14.213 INFO  manager.AplicationManager - The linc is -->https://ilcarro-1578153671498.web.app/search
+16:09:14.296 INFO  manager.MyListener - 'Start finde' element ---> By.xpath: //a[text()=' Logout ']
+16:09:19.362 INFO  manager.MyListener - the element with locator ---> By.xpath: //a[text()=' Logout '] ,--- was found
+16:09:19.367 INFO  tests.TestBase - the test starts with data [noa@gmail.com] & [Nnoa12345$]
+16:09:19.369 INFO  manager.MyListener - 'Start finde' element ---> By.xpath: //a[text()=' Log in ']
+16:09:19.390 INFO  manager.MyListener - the element with locator ---> By.xpath: //a[text()=' Log in '] ,--- was found
+16:09:19.549 INFO  manager.MyListener - 'Start finde' element ---> By.xpath: //*[@id='email']
+16:09:19.578 INFO  manager.MyListener - the element with locator ---> By.xpath: //*[@id='email'] ,--- was found
+16:09:19.845 INFO  manager.MyListener - 'Start finde' element ---> By.xpath: //*[@id='password']
+16:09:19.883 INFO  manager.MyListener - the element with locator ---> By.xpath: //*[@id='password'] ,--- was found
+16:09:20.202 INFO  manager.MyListener - 'Start finde' element ---> By.cssSelector: [type='submit']
+16:09:20.231 INFO  manager.MyListener - the element with locator ---> By.cssSelector: [type='submit'] ,--- was found
+16:09:20.336 INFO  manager.MyListener - 'Start finde' element ---> By.cssSelector: [type='submit']
+16:09:20.363 INFO  manager.MyListener - the element with locator ---> By.cssSelector: [type='submit'] ,--- was found
+16:09:20.459 INFO  manager.MyListener - 'Start finde' element ---> By.xpath: //a[text()=' Logout ']
+16:09:21.683 INFO  manager.MyListener - the element with locator ---> By.xpath: //a[text()=' Logout '] ,--- was found
+16:09:21.688 INFO  manager.MyListener - 'Start finde' element ---> By.xpath: //a[text()=' Logout ']
+16:09:21.732 INFO  manager.MyListener - the element with locator ---> By.xpath: //a[text()=' Logout '] ,--- was found
+16:09:21.784 INFO  manager.MyListener - 'Start finde' element ---> By.xpath: //a[text()=' Logout ']
+16:09:21.802 INFO  manager.MyListener - the element with locator ---> By.xpath: //a[text()=' Logout '] ,--- was found
+16:09:21.828 INFO  manager.MyListener - 'Start finde' element ---> By.xpath: //button[text()='Ok']
+16:09:21.891 INFO  manager.MyListener - the element with locator ---> By.xpath: //button[text()='Ok'] ,--- was found
+16:09:21.891 INFO  manager.MyListener - 'Start finde' element ---> By.xpath: //button[text()='Ok']
+16:09:21.929 INFO  manager.MyListener - the element with locator ---> By.xpath: //button[text()='Ok'] ,--- was found
+16:09:46.239 INFO  manager.AplicationManager - All tests starts in ChromDriver
+16:09:50.409 INFO  manager.AplicationManager - The linc is -->https://ilcarro-1578153671498.web.app/search
+16:09:50.467 INFO  manager.MyListener - 'Start finde' element ---> By.xpath: //a[text()=' Logout ']
+16:09:55.539 INFO  manager.MyListener - the element with locator ---> By.xpath: //a[text()=' Logout '] ,--- was found
+16:09:55.542 INFO  tests.TestBase - the test starts with data [noa@gmail.com] & [Nnoa12345$]
+16:09:55.544 INFO  manager.MyListener - 'Start finde' element ---> By.xpath: //a[text(1)=' Log in ']
+16:09:55.597 INFO  manager.MyListener - We have a 'throwable' ---> invalid selector: Unable to locate an element with the xpath expression //a[text(1)=' Log in '] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//a[text(1)=' Log in ']' is not a valid XPath expression.
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-6CQ3264SSN2', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50016}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 889aa92a4afecd1a74dc5a2c1c1d57b1
+*** Element info: {Using=xpath, value=//a[text(1)=' Log in ']}
+16:09:55.602 INFO  manager.MyListener - We have a 'fill In StackTrace' ---> org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //a[text(1)=' Log in '] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//a[text(1)=' Log in ']' is not a valid XPath expression.
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-6CQ3264SSN2', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50016}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 889aa92a4afecd1a74dc5a2c1c1d57b1
+*** Element info: {Using=xpath, value=//a[text(1)=' Log in ']}
+16:09:56.111 INFO  manager.MyListener - This is link to screen with problem--->src/test/screenshots/screen-595.png
+16:09:56.115 INFO  manager.MyListener - 'Start finde' element ---> By.xpath: //button[text()='Ok']
+16:10:01.163 INFO  manager.MyListener - the element with locator ---> By.xpath: //button[text()='Ok'] ,--- was found
+16:11:03.447 INFO  manager.AplicationManager - All tests starts in ChromDriver
+16:11:06.855 INFO  manager.AplicationManager - The linc is -->https://ilcarro-1578153671498.web.app/search
+16:11:06.929 INFO  manager.MyListener - 'Start finde' element ---> By.xpath: //a[text()=' Logout ']
+16:11:12.008 INFO  manager.MyListener - the element with locator ---> By.xpath: //a[text()=' Logout '] ,--- was found
+16:11:12.012 INFO  tests.TestBase - the test starts with data [noa@gmail.com] & [Nnoa12345$]
+16:11:12.014 INFO  manager.MyListener - 'Start finde' element ---> By.xpath: //a[text()=' Log in ']
+16:11:12.048 INFO  manager.MyListener - the element with locator ---> By.xpath: //a[text()=' Log in '] ,--- was found
+16:11:12.220 INFO  manager.MyListener - 'Start finde' element ---> By.xpath: //*[@id='email']
+16:11:12.251 INFO  manager.MyListener - the element with locator ---> By.xpath: //*[@id='email'] ,--- was found
+16:11:12.511 INFO  manager.MyListener - 'Start finde' element ---> By.xpath: //*[@id='password']
+16:11:12.544 INFO  manager.MyListener - the element with locator ---> By.xpath: //*[@id='password'] ,--- was found
+16:11:12.780 INFO  manager.MyListener - 'Start finde' element ---> By.cssSelector: [type='submit']
+16:11:12.820 INFO  manager.MyListener - the element with locator ---> By.cssSelector: [type='submit'] ,--- was found
+16:11:12.974 INFO  manager.MyListener - 'Start finde' element ---> By.cssSelector: [type='submit']
+16:11:12.989 INFO  manager.MyListener - the element with locator ---> By.cssSelector: [type='submit'] ,--- was found
+16:11:13.057 INFO  manager.MyListener - 'Start finde' element ---> By.xpath: //a[text()=' Logout ']
+16:11:14.305 INFO  manager.MyListener - the element with locator ---> By.xpath: //a[text()=' Logout '] ,--- was found
+16:11:14.310 INFO  manager.MyListener - 'Start finde' element ---> By.xpath: //a[text()=' Logout ']
+16:11:14.350 INFO  manager.MyListener - the element with locator ---> By.xpath: //a[text()=' Logout '] ,--- was found
+16:11:14.393 INFO  manager.MyListener - 'Start finde' element ---> By.xpath: //a[text()=' Logout ']
+16:11:14.422 INFO  manager.MyListener - the element with locator ---> By.xpath: //a[text()=' Logout '] ,--- was found
+16:11:14.450 INFO  manager.MyListener - 'Start finde' element ---> By.xpath: //button[text()='Ok']
+16:11:14.491 INFO  manager.MyListener - the element with locator ---> By.xpath: //button[text()='Ok'] ,--- was found
+16:11:14.491 INFO  manager.MyListener - 'Start finde' element ---> By.xpath: //button[text()='Ok']
+16:11:14.535 INFO  manager.MyListener - the element with locator ---> By.xpath: //button[text()='Ok'] ,--- was found
