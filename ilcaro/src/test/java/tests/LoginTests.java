@@ -1,5 +1,6 @@
 package tests;
 
+import manager.MyDataprovider;
 import models.Users;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -21,11 +22,11 @@ if(app.getHelperUser().isLogOutPresent())
    }
 
 
-    @Test
-    public void loginSuccessModel()
+    @Test(dataProvider= "validLoginData", dataProviderClass = MyDataprovider.class)
+    public void loginSuccessModel(String email, String password)
     {
-        logger.info("the test starts with data [noa@gmail.com] & [Nnoa12345$]");
-        Users user =new Users().withEmail("noa@gmail.com").withPassword("Nnoa12345$");
+        logger.info("the test starts with data :  email "+email+ " password : "+password);
+        Users user =new Users().withEmail(email).withPassword(password);
 //флюинстайл - выятгивание метода по цепочки в строчку
 
         app.getHelperUser().openLoginForm();
